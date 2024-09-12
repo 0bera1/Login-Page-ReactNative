@@ -16,12 +16,19 @@
     },
     "android": {
       "adaptiveIcon": {
+        "package": "com.test.login",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.test.login"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ee42e78f-4672-4240-abcf-3d65136a417e"
+      }
     }
   }
 }
